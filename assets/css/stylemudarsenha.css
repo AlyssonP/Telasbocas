@@ -1,0 +1,151 @@
+/*Gerais*/
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 175px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Estilo da Barra*/
+header, .navbar{
+    background-color: #029625;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    margin: 15px;
+    width: 150px;
+}
+
+
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+ 
+#navbar-links a{
+    color: white;
+    transition: .5s;
+    margin-right: 10px;
+}
+#navbar-links a:hover{
+    color: black;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/* Tabela */
+h4{
+    text-align: center;
+}
+
+button{
+    background-color: #029624ab;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 8px;   
+    font-size: 14px; 
+    font-weight: bolder;
+    margin-right: 70px;
+    display: inline;
+    float: right;
+    transition: .3s;
+
+}
+
+button:hover{
+    background-color: #70c51bcb;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+#area-tabela{
+    margin-top: 100px;
+    padding: 25px 0px 100px 0px; 
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+    margin: 0 130px;
+}
+
+label{
+    margin: 0;
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    font-weight: 450;
+}
+
+fieldset{
+    width: 870px;
+}
+
+input{
+    padding-left:13px;
+    background-color: #F4F4F4;
+    display:block;
+    margin-bottom: 10px;
+    border: hidden;
+    width: 100%;
+}
+
+
+/* Footer */
+p{
+    text-align: center;
+}
+
+/* Responsivo */
+@media all and (max-width: 800px){
+    #area-tabela{
+        width: 270px;
+    }
+    
+    form{
+        margin: 0 10px;
+    }
+    
+    fieldset{
+        width: 100%;
+        margin: 0px;
+    }
+
+    button{
+        float: right;
+    }
+
+
+   
+
+
+}
+
