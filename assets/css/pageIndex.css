@@ -1,0 +1,21 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(113, 204, 95);
+}
+
+
+
+.container{
+    align-content: center;
+    padding: auto;
+    background-color: rgb(240, 248, 255);
+    border-radius: 15px;
+}
+
+#table_telas{
+    padding: 20px;
+
+}
+table, th, td {
+    padding: 6px;
+}

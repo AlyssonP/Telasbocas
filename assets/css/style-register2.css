@@ -1,0 +1,76 @@
+
+
+body{
+    background: linear-gradient(45deg, rgb(109, 151, 109), rgb(25, 187, 25));
+    min-height: 100vh;
+    min-width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background-color: white;
+    max-width: 95vh;
+    min-height: 30vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px;
+    border-radius: 20px;
+}
+
+img{
+    width: 20rem;
+    transform: translateX(1px);
+}
+
+.input-field{
+    position: relative;
+   
+}
+
+.password-field{
+    position: relative;
+    padding-top: 0.5rem;
+}
+.input-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color:rgba(0, 0, 0, 0.2);
+    padding: 0.3rem;
+    width: 15rem;
+    border-radius: 5px;
+    transform: translateX(-1rem);
+
+}
+
+.password-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color:rgba(0, 0, 0, 0.2);
+    padding: 0.3rem;
+    width: 15rem;
+    border-radius: 5px;
+    transform: translateX(-1rem);
+}
+
+form{
+    padding: 2rem;
+}
+
+button{
+    width: 6rem;
+    height: 1.5rem;
+    outline: none;
+    transform: translateX(-1rem);
+    background-color: rgb(59, 146, 59);
+    color: rgb(46, 43, 43);
+    border-radius: 5px;
+}
+button:hover{
+    width: 6.2rem;
+    height: 1.8rem;
+}
+
+.button-field{
+    padding-top: 0.8rem;
+}
