@@ -1,21 +1,55 @@
-body{
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(113, 204, 95);
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(190, 253, 188);
 }
 
+.row {
+    margin: 0;
+}
 
+.container {
+    padding: 70px 0;
+}
+/* Navbar */
 
-.container{
-    align-content: center;
-    padding: auto;
-    background-color: rgb(240, 248, 255);
+header, .navbar{
+    background-color: rgba(23, 138, 13, 0.89);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    margin-left: 20px;
+    width: 150px;
+}
+
+.navbar-brand{
+    padding: 8px;
+    color: white;
+}
+/* main */
+h4{
+    padding-left: 30px;
+    margin-left: 40px;
+}
+
+#container_table{
+    box-shadow: 3px 3px rgba(5, 5, 5, 0.342);
+    margin-top: 100px;
+    padding: 25px 0px 25px 0px; 
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
-#table_telas{
-    padding: 20px;
-
-}
-table, th, td {
-    padding: 6px;
+#table_disciplina{
+    border-collapse: collapse;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1000px;
 }
