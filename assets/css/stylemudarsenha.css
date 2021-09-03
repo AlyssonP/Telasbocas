@@ -13,13 +13,13 @@ body{
 }
 
 p, li{
-    color: #444;
+    color: rgb(104, 97, 97);
     font-size: 14px;
 }
 
 /*Estilo da Barra*/
 header, .navbar{
-    background-color: #029625;
+    background-color: rgba(2, 150, 36, 0.726);
 }
 
 #nav-container{
@@ -111,7 +111,7 @@ fieldset{
 
 input{
     padding-left:13px;
-    background-color: #F4F4F4;
+    background-color: #d6d4d4;
     display:block;
     margin-bottom: 10px;
     border: hidden;
@@ -119,8 +119,15 @@ input{
 }
 
 
-/* Footer */
-p{
+/* footer */
+footer{
+    position:absolute;
+    bottom:5px;
+    width:100%;
+    color: rgba(61, 61, 61, 0.295);
+}
+
+footer p{
     text-align: center;
 }
 

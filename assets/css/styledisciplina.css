@@ -59,6 +59,7 @@ header, .navbar{
 }
 
 /* Tabela */
+
 h4{
     padding-left: 30px;
     margin-left: 40px;
@@ -70,7 +71,7 @@ h5{
 }
 
 #butao-tabela{
-    background-color: rgba(16, 102, 8, 0.61);
+    background-color: rgba(255, 0, 0, 0.72);
     border: none;
     padding: 5px 20px;
     text-align: center;
@@ -86,16 +87,19 @@ h5{
 
 #butao-tabela:hover{
     background-color: #71c71ccb;
-    color: white;
-    padding: 5px 20px;
+    color: white;   
     text-align: center;
     display: inline-block;
 }
- 
-#area-tabela{
+
+#container_table{
+    box-shadow: 3px 4px 10px rgba(5, 5, 5, 0.555);
     margin-top: 100px;
-    padding: 25px 0px 100px 0px; 
+    padding: 25px 0px 25px 0px; 
     background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 970px;
+    
 }
 
 #tabela{
@@ -104,12 +108,9 @@ h5{
     font-weight: normal;
     margin: 0 auto;
     margin-top: 30px;
-    width: 1000px;
+    width: 850px;
 }
 
-td{
-    position: relative;
-}
 
 tr:nth-child(even){
     background-color: lightgray;
@@ -120,9 +121,21 @@ tr:nth-child(even){
     text-align: right;
 }
 
+h4{
+    padding-left: 30px;
+    margin-left: 40px;
+}
+
 
 /* Footer */
-p{
+footer{
+    position:absolute;
+    bottom:5px;
+    width:100%;
+    color: rgb(61, 61, 61);
+}
+
+footer p{
     text-align: center;
 }
 
