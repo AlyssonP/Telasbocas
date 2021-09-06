@@ -65,7 +65,7 @@ h4{
 }
 
 button{
-    background-color: #029624ab;
+    background-color: rgb(44, 129, 36, 0.61);
     border: none;
     padding: 5px 20px;
     text-align: center;
@@ -149,10 +149,5 @@ footer p{
     button{
         float: right;
     }
-
-
-   
-
-
 }
 

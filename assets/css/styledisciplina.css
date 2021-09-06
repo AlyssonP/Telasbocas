@@ -71,7 +71,7 @@ h5{
 }
 
 #butao-tabela{
-    background-color: rgba(16, 102, 8, 0.61);
+    background-color: rgba(44, 129, 36, 0.61);
     border: none;
     padding: 5px 20px;
     text-align: center;
@@ -168,7 +168,4 @@ footer p{
         display: block;
         border: 1px solid;
     }
-
-
 }
-
