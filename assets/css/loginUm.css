@@ -29,7 +29,7 @@ body{
 }
 
 #logoP{
-    width: 270px;
+    width: 70%;
 }
 
 
@@ -44,7 +44,7 @@ body{
     position: fixed;
     left: 0px;
     bottom: 0px;  
-    width: 32%;
+    width: 30%;
 }
 
 
@@ -96,8 +96,37 @@ label{
     width: 30%;
 }
 
-/* Responsivo 
-@media all and (max-width: 767px){
+/* Responsivo */
+@media all and (max-width: 1024px){
+    .col-md{
+        background-color: #17A400;
+        margin:0px auto;
+        padding: 0px;
+    }
+
+    .col-md-4{
+        display:none;
+    }
+
+    div#banner
+    {
+        margin: 0 auto;
+        padding-top: 300px;
+        width: 250px;
+        height: 70px;
+        background: transparent url('../img/brand/logoP.png') no-repeat left bottom;
+
+    }
+
+    div#boneco{
+        margin: 0px auto;
+        display: unset;
+             
+    }
+    
+
+    
+    /*
     .horizontal-align{
         position: relative;
         left: 50%;
@@ -121,9 +150,10 @@ label{
     .col-md-8{
         display: none;
     }
+    */
 }
 
-
+/*
 @media all and (min-width:768px)and (max-width:1224px){
     .horizontal-align{
         position: relative;
