@@ -4,49 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Boca</title>
-    <!-- Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Tela de Login do Boca</title>
     <link rel="stylesheet" href="../assets/css/loginUm.css">
-
-    <!-- JavaScript Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="apply-area">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Parte Verde - Logo-->
-                <div class="col-md-4 apply-box" id="posicao-logo">
-                    <img src="../assets/img/brand/logoP.png" alt="logo Laced" class="vertical-align" id="logoP">
-                    <img src="../assets/img/brand/boneco_podio401.png" alt="Boneo vencedor"  id="boneco">
-                </div>
-
-                <!--Parte Branca - Formulario-->
-                <div class="col-md apply-box" id="posicao-formulario">                    
-                    <div id="divform">
-                        <div>
-                            <div id="banner"></div>
-                        </div>
-
-                        <h2>FAÇA SEU LOGIN!</h2>
-                        <form action="" id="form">
-                            <label for="matricula">Matricula</label>
-                            <input type="text" name="matricula" id="matricla">
-                            <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="senha">
-                            <input type="submit" value="Acessar" id="butao" class="bnt">
-                        </form>
-
-                        <div id="boneco_responsivo">
-                            <div>
-                                <img src="../assets/img/brand/boneco_podio401.png" alt="Boneco" id="boneco_tablet">
-                            </div>
-                        </div>
-                </div>
+    <div class="container">
+        <!-- Parte Verde das imagens -->
+        <div class="box-1">
+            <img src="../assets/img/brand/logoP.png" id="logo">
+            <img src="../assets/img/brand/boneco_podio401.png" alt="" id="boneco">
+        </div>
+        <!-- Parte Branca do Formulário -->
+        <div class="box-2">
+            <div class="form">
+                <h2>FAÇA SEU LOGIN!</h2>
+                <form action="" id="form">
+                    <label for="matricula">Matricula</label>
+                    <input type="text" name="matricula" id="matricla">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha">
+                    <input type="submit" value="Acessar" id="butao" class="bnt">
+                </form>
             </div>
         </div>
     </div>
-    
 </body>
 </html>

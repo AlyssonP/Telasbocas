@@ -1,75 +1,57 @@
-/*Gerais*/
-*{
-    margin:0px;
-    padding: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-body{
-    font-family: "Roboto", sans-serif;
-    color: black;
-}
-
-
-/*Logo*/
-#apply-area{
-    height: 100vh;  
-}
-
-#apply-area .container-fluid, #apply-area .row{
-    height: 100%;
-}
-
-#apply-area .apply-box{
-    padding: 0px;
+* { /* Configuração para zerar todas as configurações padrão da página */
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-#posicao-logo{
+body { /* Configuração para preencher a tela toda*/
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+[class^="box-"] { /* Configuração geral das boxes*/
+    display: grid;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, fr);
+}
+
+.box-1{
     background-color: #17A400;
+    grid-column: span 4;
+    place-items: center;
+    padding-top: 110px;
 }
 
-#logoP{
-    width: 70%;
+img#boneco{
+    place-self: end start;
 }
 
-
-.vertical-align {
-    position: relative;
-    top: 18%;
-    left: 47%;
-    transform: translateX(-50%);
-}
-
-#boneco{
-    position: fixed;
-    left: 0px;
-    bottom: 0px;  
-    width: 30%;
+.box-2 {
+    grid-column: span 8;
+    place-items: center;
 }
 
 
-/*Formulário*/
+/* Formulário*/
 
 h2{
+    font-size: 30px;
     text-align: center;
     font-weight: bolder;
-    margin-top: 150px;
-}
-
-.col-md #form{
-    margin: 0px auto;
-}
-
-#divform{
-    margin:0 auto;
-    padding: 0px;
-    width: 440px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 400px;
     margin-top: 70px;
 }
 
@@ -83,8 +65,6 @@ form input{
 }
 
 label{
-    margin: 0;
-    padding: 0;
     font-weight: bolder;
 }
 
@@ -93,105 +73,6 @@ label{
     background-color: #00390d;
     color:white;
     font-weight: bold;
-    width: 30%;
+    width: 25%;
+    border-radius: 5px;
 }
-
-/* Responsivo */
-@media all and (max-width: 1024px){
-    .col-md{
-        background-color: #17A400;
-        margin:0px auto;
-        padding: 0px;
-    }
-
-    .col-md-4{
-        display:none;
-    }
-
-    div#banner
-    {
-        margin: 0 auto;
-        padding-top: 300px;
-        width: 250px;
-        height: 70px;
-        background: transparent url('../img/brand/logoP.png') no-repeat left bottom;
-
-    }
-
-    div#boneco{
-        margin: 0px auto;
-        display: unset;
-             
-    }
-    
-
-    
-    /*
-    .horizontal-align{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-    }
-
-    #logoG{
-        display:none;
-    }
-
-
-    #logoM{
-        display: none;
-    }
-
-    #logoP{
-        display: unset;
-    }
-
-    .col-md-8{
-        display: none;
-    }
-    */
-}
-
-/*
-@media all and (min-width:768px)and (max-width:1224px){
-    .horizontal-align{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-    }
-
-    #logoG{
-        display:none;
-    }
-
-    h2{
-        margin-top: 80px;
-        font-size: 50px;
-    }
-    #logoM{
-        display: unset;
-    }
-
-    #logoP{
-        display: none;
-    }
-    
-    form{
-        font-size: 34px;
-        height: 50px;
-
-    }
-
-    form input{
-        height: 470px;
-
-    }
-
-    .col-md-8{
-        display: none;
-    }
-    
-}
-*/
