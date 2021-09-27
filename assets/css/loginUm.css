@@ -1,33 +1,36 @@
-/*Gerais*/
-*{
-    margin:0px;
-    padding: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-body{
-    font-family: "Roboto", sans-serif;
-    color: black;
-}
-
-
-/*Logo*/
-#apply-area{
-    height: 100vh;  
-}
-
-#apply-area .container-fluid, #apply-area .row{
-    height: 100%;
-}
-
-#apply-area .apply-box{
-    padding: 0px;
+* { /* Configuração para zerar todas as configurações padrão da página */
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-#posicao-logo{
+body { /* Configuração para preencher a tela toda*/
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+[class^="box-"] { /* Configuração geral das boxes*/
+    display: grid;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, fr);
+}
+
+.box-1{
     background-color: #17A400;
+    grid-column: span 4;
+    place-items: center;
+    padding-top: 110px;
 }
 
+<<<<<<< HEAD
 #logoP{
     width: 70%;
 }
@@ -46,31 +49,30 @@ body{
     bottom: 0px;
 
     
+=======
+img#boneco{
+    place-self: end start;
+}
+
+.box-2 {
+    grid-column: span 8;
+    place-items: center;
+>>>>>>> d489c38d7766b6860351858596adf8eeeacd9588
 }
 
 
-/*Formulário*/
+/* Formulário*/
 
 h2{
+    font-size: 30px;
     text-align: center;
     font-weight: bolder;
-    margin-top: 150px;
-}
-
-.col-md #form{
-    margin: 0px auto;
-}
-
-#divform{
-    margin:0 auto;
-    padding: 0px;
-    width: 440px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 400px;
     margin-top: 70px;
 }
 
@@ -84,8 +86,6 @@ form input{
 }
 
 label{
-    margin: 0;
-    padding: 0;
     font-weight: bolder;
 }
 
@@ -94,6 +94,7 @@ label{
     background-color: #00390d;
     color:white;
     font-weight: bold;
+<<<<<<< HEAD
     width: 30%;
 }
 
@@ -161,3 +162,8 @@ label{
     }
 }
 
+=======
+    width: 25%;
+    border-radius: 5px;
+}
+>>>>>>> d489c38d7766b6860351858596adf8eeeacd9588
