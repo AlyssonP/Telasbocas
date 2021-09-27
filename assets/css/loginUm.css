@@ -32,7 +32,7 @@ body{
     width: 70%;
 }
 
-
+/*Logo*/
 .vertical-align {
     position: relative;
     top: 18%;
@@ -41,10 +41,11 @@ body{
 }
 
 #boneco{
-    position: fixed;
-    left: 0px;
-    bottom: 0px;  
     width: 30%;
+    position: absolute;
+    bottom: 0px;
+
+    
 }
 
 
@@ -97,7 +98,7 @@ label{
 }
 
 /* Responsivo */
-@media all and (max-width: 1024px){
+@media all and (max-width: 1100px){
     .col-md{
         background-color: #17A400;
         margin:0px auto;
@@ -108,90 +109,55 @@ label{
         display:none;
     }
 
+    /*Logo Pequena*/
     div#banner
     {
         margin: 0 auto;
-        padding-top: 300px;
+        padding-top: 200px;
         width: 250px;
         height: 70px;
         background: transparent url('../img/brand/logoP.png') no-repeat left bottom;
 
     }
 
-    div#boneco{
-        margin: 0px auto;
-        display: unset;
-             
-    }
-    
-
-    
-    /*
-    .horizontal-align{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
+    h2{
+        margin-top: 120px;
     }
 
-    #logoG{
-        display:none;
+    #boneco{
+        left:200px;
+        width: 50%;
     }
-
-
-    #logoM{
-        display: none;
-    }
-
-    #logoP{
-        display: unset;
-    }
-
-    .col-md-8{
-        display: none;
-    }
-    */
 }
 
-/*
-@media all and (min-width:768px)and (max-width:1224px){
-    .horizontal-align{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
+@media all and (max-width: 450px){
+    form{
+        width: 250px;
     }
 
-    #logoG{
-        display:none;
+    #butao{
+        margin:20px 0 0 0;
+    }
+
+    #divform{
+        padding: 0;
+        width: 80%;
+
+    }
+
+    /*Logo Pequena*/
+    div#banner{
+        margin-bottom: 0px;
+        padding-top: 150px;
     }
 
     h2{
-        margin-top: 80px;
-        font-size: 50px;
-    }
-    #logoM{
-        display: unset;
+        margin-top: 50px;
     }
 
-    #logoP{
-        display: none;
+    #boneco{
+        left: 65px;
+        width: 240px;
     }
-    
-    form{
-        font-size: 34px;
-        height: 50px;
-
-    }
-
-    form input{
-        height: 470px;
-
-    }
-
-    .col-md-8{
-        display: none;
-    }
-    
 }
-*/
+
