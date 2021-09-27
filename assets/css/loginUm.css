@@ -1,36 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-* { /* Configuração para zerar todas as configurações padrão da página */
-    margin: 0px;
+/*Gerais*/
+*{
+    margin:0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
-body { /* Configuração para preencher a tela toda*/
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    min-height: 100vh;
+body{
+    font-family: "Roboto", sans-serif;
+    color: black;
 }
 
-[class^="box-"] { /* Configuração geral das boxes*/
-    display: grid;
+
+/*Logo*/
+#apply-area{
+    height: 100vh;  
 }
 
-.container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, fr);
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
 }
 
-.box-1{
+#apply-area .apply-box{
+    padding: 0px;
+    margin: 0px;
+}
+
+#posicao-logo{
     background-color: #17A400;
-    grid-column: span 4;
-    place-items: center;
-    padding-top: 110px;
 }
 
-<<<<<<< HEAD
 #logoP{
     width: 70%;
 }
@@ -49,30 +46,31 @@ body { /* Configuração para preencher a tela toda*/
     bottom: 0px;
 
     
-=======
-img#boneco{
-    place-self: end start;
-}
-
-.box-2 {
-    grid-column: span 8;
-    place-items: center;
->>>>>>> d489c38d7766b6860351858596adf8eeeacd9588
 }
 
 
-/* Formulário*/
+/*Formulário*/
 
 h2{
-    font-size: 30px;
     text-align: center;
     font-weight: bolder;
+    margin-top: 150px;
+}
+
+.col-md #form{
+    margin: 0px auto;
+}
+
+#divform{
+    margin:0 auto;
+    padding: 0px;
+    width: 440px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 440px;
     margin-top: 70px;
 }
 
@@ -86,6 +84,8 @@ form input{
 }
 
 label{
+    margin: 0;
+    padding: 0;
     font-weight: bolder;
 }
 
@@ -94,7 +94,6 @@ label{
     background-color: #00390d;
     color:white;
     font-weight: bold;
-<<<<<<< HEAD
     width: 30%;
 }
 
@@ -162,8 +161,3 @@ label{
     }
 }
 
-=======
-    width: 25%;
-    border-radius: 5px;
-}
->>>>>>> d489c38d7766b6860351858596adf8eeeacd9588
