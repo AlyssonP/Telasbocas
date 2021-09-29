@@ -44,7 +44,7 @@ body{
     width: 30%;
     position: absolute;
     bottom: 0px;
-    left: 0px;    
+    left: -12px;    
 }
 
 
@@ -53,8 +53,8 @@ body{
 h2{
     text-align: center;
     font-weight: bolder;
-    margin-top: 150px;
-    margin-bottom: 30px;
+    margin-top: 65px;
+    margin-bottom: 20px;
     
 }
 
@@ -86,17 +86,26 @@ form input{
 
 .container{
     padding: 0;
-}
-
-a{
     color: black;
 }
 
-#remember{
-    display: inline;
-    height: 12.500px;
-    margin-right: 150px;
+a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
+
+a:hover{
+    color: #3d3d3d;
+}
+
+#remember{
+    display: inline-block;
+    height: 12.500px;
+}
+
+
 
 label{
     margin: 0;
@@ -105,7 +114,7 @@ label{
 }
 
 #butao{
-    margin-top: 60px;
+    margin-top: 40px;
     background-color: #00390d;
     color:white;
     font-weight: bold;
@@ -138,11 +147,20 @@ label{
 
     }
 
-    h2{
-        margin-top: 120px;
+    #divform{
+        width: 500px;
     }
 
-   
+    form{
+        width: 500px;
+        font-size: 25px;
+    }
+
+    h2{
+        margin-top: 120px;
+        font-size: 35px;
+    }
+
     div#bonecoResp
     {
         margin: 0 auto;
@@ -156,6 +174,14 @@ label{
         display: none;
     }
 
+    .container{
+        display: inline-block;
+    }
+
+    a{
+        text-align: right;
+        font-weight: bold;
+    }
 }
 
 /*Telas Celulares*/
@@ -169,12 +195,21 @@ label{
         background: transparent url('../img/brand/logoDC.png') no-repeat left bottom;
     }
 
+    .container{
+        letter-spacing: -1px;
+    }
     form{
         width: 250px;
+        font-size: 14px;
+    }
+
+    label{
+        font-weight: bolder;
     }
 
     a{
         color: black;
+        font-weight: bold;
     }
 
     #butao{
@@ -187,16 +222,17 @@ label{
     }
 
     .container{
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 14px;
     }
 
     #remember{
         margin: 0;
     }
 
-    a{
-        display: block;
-    }
+    
     /*Logo Pequena*/
     div#banner{
         margin-bottom: 0px;
@@ -205,6 +241,7 @@ label{
 
     h2{
         margin-top: 50px;
+        font-size: 20px;
     }
 
     #boneco{
