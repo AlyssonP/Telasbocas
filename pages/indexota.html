@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="../assets/css/loginota.css">
 </head>
 <body>
-
     <div class="container">
 
+        <img src="../assets/img/brand/AvA-151x60.png" alt="">
+
         <div class="box-1">
-            
-            
             <form action="login.php" method="post">
-                <h2>Login</h2>
+                <h2>Faça seu login</h2>
                 <div>
                     <label for="uname"><b>Usuário</b></label>
                     <input type="text" placeholder="Informe sua matrícula" name="matricula" required>
@@ -23,21 +22,20 @@
                     <label for="psw"><b>Senha</b></label>
                     <input type="password" placeholder="Informe sua senha" name="senha" required>
             
-                    <button type="submit" class="btn">Login</button>
+                    <div class="recusenha">
+                        <span class="psw"><a href="recuperarsenha.html">Esqueceu a senha?</a></span>
+                    </div>
                     
                     <label id="check">
-                        <input type="checkbox" checked="checked" name="remember" id="caixinha"> Lembre de mim
+                        <input type="checkbox" checked="checked" name="remember" id="caixinha"> Lembre-me
                     </label>
-                </div>
-
-                <div class="recusenha">
-                    <button type="button" class="btn">Cancel</button>
                     
-                    <span class="psw"><a href="recuperarsenha.html">Esqueceu a senha?</a></span>
+                    <button type="submit" class="btn">Acessar</button>
                 </div>
             </form>
-        </div>
-    </div>
 
+        </div>
+
+    </div>
 </body>
 </html>

@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #6C7A89;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,18 +22,19 @@ body{
 
 .box-1{
     margin: 0 10px;
-    width: 500px;
-    height: 400px;
+    width: 430px;
+    height: 465px;
     background: #fff;
     display: grid;
-    border-radius: 10px;
+    border-radius: 15px;
     place-items: center;
+    border: 1px solid blue;
 }
 
 h2{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 form {
@@ -43,8 +44,10 @@ form {
 input {
     padding: 5px;
     width: 100%;
-    height: 35px;
+    height: 50px;
     margin-bottom: 20px;
+    border-radius: 8px; 
+    border: 1px solid #003F63;
 }
 
 input#caixinha{
@@ -53,26 +56,28 @@ input#caixinha{
     width: 15px;
     margin: 0px;
     justify-items: start;
-    
 }
 
 button.btn{
-    width: 75px;
-    height: 30px;
+    background-color: #026197;
+    margin-top: 35px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #026197;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
 }
 
 label#check{
-    float: right;
-    margin-top: 6px;
-}
-
-.recusenha{
-    margin-top: 20px;
+    float: left;
+    margin-top: 10px;
 }
 
 span{
     float: right;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 a{
@@ -81,4 +86,10 @@ a{
 
 a:hover{
     color: #5c5c5c;
+}
+
+img{
+    display: flex;
+    align-self: flex-start;
+    
 }
