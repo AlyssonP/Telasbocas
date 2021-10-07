@@ -23,12 +23,12 @@ body{
 .box-1{
     margin: 0 10px;
     width: 430px;
-    height: 465px;
+    height: 415px;
     background: #fff;
     display: grid;
     border-radius: 15px;
     place-items: center;
-    border: 1px solid blue;
+    border: 1px solid #026197;
 }
 
 h2{
@@ -47,7 +47,7 @@ input {
     height: 50px;
     margin-bottom: 20px;
     border-radius: 8px; 
-    border: 1px solid #003F63;
+    border: 1px solid #026197;
 }
 
 input#caixinha{
@@ -92,6 +92,28 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;  
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 45px;
+    margin-bottom: -11px;
+}
+
+/*Mudanças Novas*/
+p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.voltar{
+    background-color: #026197;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#boxvermelha{
+    border: 2px solid #DC3545;
+}
+
+#vterro{
+    background-color: #DC3545;
 }

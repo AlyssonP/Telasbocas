@@ -1,58 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/img/theme/logo_laced.png">
-    <title>Home</title>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style-index.css">
-
-    <!-- JavaScript Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    
-    </head>
+    <title>Login Ota</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
 <body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" >
-                <a href="#" class="navbar-brand">
-                    <img src="assets/img/theme/logo_laced.png" alt="Logo Laced" id="logo"> 
-                </a>              
-            </nav>
+    <img src="assets/img/AvA-151x60.png" alt="Logo AVA" id="logo">
+    
+    <div class="container">
+        <div class="box-1">
+            <form action="login.php" method="post">
+                <h2>Faça seu login</h2>
+                <div>
+                    <label for="uname"><b>Usuário</b></label>
+                    <input type="text" placeholder="Informe sua matrícula" name="matricula" required>
+                    
+                    <label for="psw"><b>Senha</b></label>
+                    <input type="password" placeholder="Informe sua senha" name="senha" required>
+            
+                    <div class="recusenha">
+                        <span class="psw"><a href="recuperarsenha.html">Esqueceu a senha?</a></span>
+                    </div>
+                    
+                    <label id="check">
+                        <input type="checkbox" checked="checked" name="remember" id="caixinha"> Lembrar login
+                    </label>
+                    
+                    <button type="submit" class="btn">Acessar</button>
+                </div>
+            </form>
+
         </div>
-    </header>
-    <main>
-        <div class="container container-center" id="container_table">
-            <h4>Lista de Páginas</h4>
-            <table class="table table-striped" id="table_paginas">
-                <thead>
-                    <tr>
-                        <th>Paginas</th>
-                        <th>Acesso</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Disciplinas</td>
-                        <td><a href="pages/diciplinas.html" target="_blank">Entrar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Login</td>
-                        <td><a href="pages/login.html" target="_blank">Entrar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Mudar senha</td>
-                        <td><a href="pages/mudarsenha.html" target="_blank">Entrar</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </main>
-    <footer style="align-items: center;">
-        <p> Lorem | Ipsum | Dolor | Sit amet | Aliquip</p>
-    </footer>
+
+    </div>
 </body>
 </html>
