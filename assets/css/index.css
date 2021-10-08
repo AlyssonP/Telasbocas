@@ -98,7 +98,7 @@ img{
 
 /*Mudanças Novas*/
 p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -110,10 +110,16 @@ p{
     color: white;
 }
 
-#boxvermelha{
-    border: 2px solid #DC3545;
+
+.h2erro {
+    font-size: 70px;
+    color: #DC3545;
+    margin-bottom: 50px;
 }
 
-#vterro{
-    background-color: #DC3545;
+button.erro {
+    height: 60px;
+    font-size: 20px;
 }
+
+

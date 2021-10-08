@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+
     <img src="assets/img/AvA-151x60.png" alt="Logo AVA" id="logo">
     
     <div class="container">
@@ -16,17 +17,22 @@
                 <h2>Alterando sua senha</h2>
                 <div>
                     <label for="psw"><b>Nova senha</b></label>
-                    <input type="password" placeholder="Informe sua nova senha" name="psw" required>
+                    <input type="password" placeholder="Informe sua nova senha" name="psw" id="password" required>
                     
                     <label for="psw-confirm"><b>Confirme a senha</b></label>
-                    <input type="password" placeholder="Confirme a sua senha" name="psw-confirm" required>
+                    <input type="password" placeholder="Confirme a sua senha" name="psw-confirm" id="confirm_password" required>
                     
-                    <button type="submit" class="btn">Confirmar alteração</button>
+                    <button type="submit" class="btn">Confirmar alteração
+                    </button>
                 </div>
             </form>
 
         </div>
-
     </div>
-</body>
+
+
+    <!--JavaScript-->
+        <script src="assets/js/index.js"></script>
+
+</body> 
 </html>
