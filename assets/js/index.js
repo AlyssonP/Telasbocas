@@ -1,7 +1,7 @@
 //Função para verificação de senhas iguais.
 
 var password = document.getElementById("password")
-  , confirm_password = document.getElementById("confirm_password");
+  , confirm_password = document.getElementById("pswconfirm");
 
 function validatePassword(){
   if(password.value != confirm_password.value) {
