@@ -33688,8 +33688,6 @@ a:hover {
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding: 0;
-  flex: 0 0 100%;
   padding: 0.65rem 1rem;
   transition: none;
   outline: none !important;
